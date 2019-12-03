@@ -27,7 +27,7 @@ plugin.tx_simplepoll {
         allowMultipleVote = 1
         # cat=plugin.tx_simplepoll/settings; type=boolean; label=Show the results after voting (by default set in poll itself)
         showResultAfterVote = 1
-        # cat=plugin.tx_simplepoll/settings; type=boolean; label=Forward to displaying the result if currently not allowed to vote. Can be Overridden by showResultAfterVote.
+        # cat=plugin.tx_simplepoll/settings; type=boolean; label=Forward to displaying the result if currently not allowed to vote. Can be Overridden by showResultAfterVote. (NOTE: THIS value is allways 0 because we cache the list view)
         showResultIfNotAllowedToVote = 0
         # cat=plugin.tx_simplepoll/settings; type=boolean; label=Use Typoscript settings instead of values in the poll itself (for bootstrapped use)
         useTyposcriptSettings = 0

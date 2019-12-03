@@ -9,6 +9,6 @@ defined('TYPO3_MODE') or die();
 	],
 	// non-cacheable actions
 	[
-		'SimplePoll' => 'list,vote,seeVotes,message',
+		'SimplePoll' => 'vote,seeVotes,message',
 	]
 );
